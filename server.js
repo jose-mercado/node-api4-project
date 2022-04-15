@@ -15,7 +15,7 @@ server.use(morgan('dev'));
 
 
 server.get('/', (req, res) => {
-    res.json("blah blah blah");
+    res.json("welcome to the heroku app!!!");
 });
 
 server.get('/api/users', (req, res) => {
